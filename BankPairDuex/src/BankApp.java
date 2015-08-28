@@ -90,7 +90,7 @@ public class BankApp {
 		int typeID = Validator.getInt(sc,"Enter a transaction type (1 - Deposit 2 - Check 3 - Withdrawal 4 - Debit Card 5 - Transfer) or -1 to finish : ");
 
 		while (typeID != -1 && typeID != 1 && typeID != 2 && typeID != 3 && typeID != 4 && typeID != 5) {
-			typeID = Validator.getInt(sc,"Enter a transaction type (1 - Deposit 2 - Check 3 - Withdrawal 4 - Debit Card 5 - Transfer) or -1 to finish : ");
+			typeID = Validator.getInt(sc,"Enter a 23333 transaction type (1 - Deposit 2 - Check 3 - Withdrawal 4 - Debit Card 5 - Transfer) or -1 to finish : ");
 		}
 		while (typeID != -1) {
 			String fromAccountNumber = "", toAccountNumber = "";
